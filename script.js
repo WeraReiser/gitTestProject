@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Aktuelles Datum anzeigen
     const heute = new Date();
     const datumText = document.createElement('p');
-    datumText.textContent = 'Heute ist: ' + heute.toLocaleDateString('de-AT');
+    datumText.textContent = 'Heute ist: ' + heute.toLocaleDateString('de-DE');
     document.querySelector('main').appendChild(datumText);
 
 });

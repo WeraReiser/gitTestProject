@@ -12,6 +12,11 @@ body {
     color: #333333;
     line-height: 1.6;
 }
+
+body{
+	background-color: #111;
+	color:white;
+}
 header {
     background-color: #1f4e79;
     color: white;
